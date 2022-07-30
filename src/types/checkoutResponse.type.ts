@@ -1,5 +1,5 @@
 export type CheckoutResponse = {
-  numberInstallments: number;
-  total: number;
-  interestRatePerMonth: number;
+  installmentNumber: number;
+  value: number;
+  interestRate: number;
 };
