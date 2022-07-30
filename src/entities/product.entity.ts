@@ -18,10 +18,12 @@ export class Product {
   })
   name: string;
 
-  @IsNumber()
+  @IsNumber({
+    maxDecimalPlaces: 2,
+  })
   @ApiProperty({
     description: 'Valor da compra',
-    example: 3000,
+    example: 2299.89,
   })
   total: number;
 }

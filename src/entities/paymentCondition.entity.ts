@@ -2,14 +2,18 @@ import { ApiProperty } from '@nestjs/swagger';
 import { IsNumber } from 'class-validator';
 
 export class PaymentCondition {
-  @IsNumber()
+  @IsNumber({
+    maxDecimalPlaces: 2,
+  })
   @ApiProperty({
     description: 'Valor da entrada para a compra',
-    example: 400,
+    example: 400.99,
   })
   entryValue: number;
 
-  @IsNumber()
+  @IsNumber({
+    maxDecimalPlaces: 0,
+  })
   @ApiProperty({
     description: 'Quantidade de parcelas',
     example: 6,
