@@ -16,7 +16,7 @@ export class PaymentCondition {
   })
   @ApiProperty({
     description: 'Quantidade de parcelas',
-    example: 6,
+    example: 7,
   })
   installmentsAmount: number;
 }
