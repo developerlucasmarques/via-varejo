@@ -5,7 +5,7 @@ Nos requisitos é pedido para desenvolver a aplicação em Java, porém foi dese
 
 ## Pré-requisitos
 
-É imprescindível que você tenha instalado em seu computador o NodeJs e o PostgreSQL para que possa executar e testar este projeto.
+É imprescindível que você tenha instalado em seu computador o NodeJs para que possa executar e testar este projeto.
 
 - **Node** - [https://nodejs.org/en/download/](https://nodejs.org/pt-br/download/)
 
