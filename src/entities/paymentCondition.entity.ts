@@ -18,5 +18,5 @@ export class PaymentCondition {
     description: 'Quantidade de parcelas',
     example: 7,
   })
-  installmentsAmount: number;
+  numberInstallments: number;
 }
