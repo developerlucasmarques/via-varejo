@@ -53,7 +53,7 @@ A aplicação estará disponível para visualização em seu navegador, caso iss
 
 ## Stacks Utilizadas
 
-- NestJs, TypeScript, JavaScript, Express, Swagger, NestJs Axios
+- NestJs, TypeScript, JavaScript, Express, Swagger e NestJs Axios
 
 ## Autor
 
