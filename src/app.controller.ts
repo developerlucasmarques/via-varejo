@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { CheckoutDto } from './dto/checkout.dto';
 
 @ApiTags('checkout')
-@Controller()
+@Controller('checkout')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
