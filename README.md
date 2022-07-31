@@ -1,6 +1,6 @@
 # Via Varejo Teste
 
-Este projeto foi desenvolvido com o intuíto de praticar programação resolvendo o teste de back-end Via Varejo com os requisitos encontrados neste link: [https://github.com/viavarejo/backend-test](https://github.com/viavarejo/backend-test).
+Este projeto foi desenvolvido com o intuito de praticar programação resolvendo o teste de back-end Via Varejo com os requisitos encontrados neste link: [https://github.com/viavarejo/backend-test](https://github.com/viavarejo/backend-test).
 Nos requisitos é pedido para desenvolver a aplicação em Java, porém foi desenvolvida em TypeScript.
 
 ## Pré-requisitos
