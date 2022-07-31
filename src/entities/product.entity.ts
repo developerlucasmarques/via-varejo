@@ -2,13 +2,14 @@ import { ApiProperty } from '@nestjs/swagger';
 import { IsNumber, IsString, Length } from 'class-validator';
 
 export class Product {
-  @IsString()
-  @Length(4, 20)
+  @IsNumber({
+    maxDecimalPlaces: 0,
+  })
   @ApiProperty({
     description: 'Código do produto',
-    example: '123456',
+    example: 123456,
   })
-  code: string;
+  code: number;
 
   @IsString()
   @Length(3, 50)
