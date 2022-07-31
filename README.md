@@ -1,73 +1,64 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Via Varejo Teste
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este projeto foi desenvolvido com o intuíto de praticar programação resolvendo o teste de back-end Via Varejo com os requisitos encontrados neste link: [https://github.com/viavarejo/backend-test](https://github.com/viavarejo/backend-test).
+Nos requisitos é pedido para desenvolver a aplicação em Java, porém foi desenvolvida em TypeScript.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Pré-requisitos
 
-## Description
+É imprescindível que você tenha instalado em seu computador o NodeJs e o PostgreSQL para que possa executar e testar este projeto.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- **Node** - [https://nodejs.org/en/download/](https://nodejs.org/pt-br/download/)
 
-## Installation
+## Instalação
 
-```bash
-$ npm install
+Exemplo:
+
+Clone esse projeto em seu computador com o comando:
+
+```
+	git clone [https://github.com/mlucasdev/via-varejo]
 ```
 
-## Running the app
+Acesse a pasta do projeto seu terminal:
 
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+```
+	cd [via-varejo]
 ```
 
-## Test
+Já na pasta da aplicação em seu terminal, digite o seguinte comando:
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+```
+	npm install
 ```
 
-## Support
+## Execução
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Após ter configurado o projeto e ter aguardado a instalação das dependencias de desenvolvimento, execute o comando:
 
-## Stay in touch
+```
+ 	npm run start
+```
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+Caso queira que o projeto rode automaticamente após fazer alguma alteração no código execute o comando:
 
-## License
+```
+	npm run start:dev
+```
 
-Nest is [MIT licensed](LICENSE).
+A aplicação estará disponível para visualização em seu navegador, caso isso não aconteça automaticamente abre o navegador no seguinte endereço: _localhost:3333/api_
+
+## Funcionalidades
+
+- É possível executar um end point onde o você insere o código, nome e valor do produto, valor da entrada e número de parcelas e assim retornando o número de cada parcela, o valor dela e caso o número de parcelas seja superior a 6 aplicará uma taxa de juros baseado nos últimos 30 dias da selic.
+
+## Stacks Utilizadas
+
+- NestJs, TypeScript, JavaScript, Express, Swagger, NestJs Axios
+
+## Autor
+
+- **Lucas Marques** - Desenvolvedor - [Github](https://github.com/mlucasdev) | [Linkedin](https://www.linkedin.com/in/mlucasdev/)
+
+## Licença
+
+General Public License [GNU](https://www.gnu.org/licenses/gpl-3.0.html).
